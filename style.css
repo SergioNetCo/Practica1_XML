@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    border: 0;
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(top red, white) url(foto2.png);
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.5);
+}
+
+.nav-cont > a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    padding: 3rem;
+}
+
+.nav-cont > a:hover {
+    color: rgb(141, 139, 139)
+}
+
+.nav-cont {
+    text-align: center;
+    padding: 10px 10px 10px 20px;
+}
